@@ -1,0 +1,165 @@
+li {
+   list-style: none;
+}
+
+#cancel {
+   background: #fff;
+   color: #142683;
+   font-weight: 500;
+   border-color: #142683;
+}
+
+#save {
+   background: #142683;
+   color: #fff;
+   padding: '10px';
+}
+
+/* sidebar */
+.sidebar-container {
+   /* width: 15%; */
+   min-height: 100vh;
+
+   border-right: 1px solid #ebf0f5;
+}
+
+.sidebar {
+   width: 80%;
+   padding-top: 40px;
+}
+
+/* sidebar item */
+.sidebar-list {
+   padding: 0;
+}
+.sidebar-item {
+   display: flex;
+   padding: 10px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.sidebar-item:hover {
+   background-color: #ebf0f5;
+   border-radius: 0px 20px 20px 0px;
+   color: blue;
+   cursor: pointer;
+}
+.active {
+   background-color: #ebf0f5;
+   border-radius: 0px 20px 20px 0px;
+   color: blue;
+}
+
+.sidebar-item img {
+   width: 16px;
+   height: 16px;
+   margin-right: 10px;
+   margin-top: 5px;
+}
+
+/* section skilltest */
+.section-skilltest {
+   padding: 30px;
+}
+
+/* html section */
+.html {
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid #ebf0f5;
+   padding: 30px;
+   border-radius: 10px;
+}
+
+.html p {
+   margin-bottom: 0;
+   font-size: 14px;
+}
+
+#update {
+   width: 120px;
+   height: 44px;
+   background: #142683;
+}
+
+/* quick stats section */
+.quick-statistics {
+   border: 1px solid #ebf0f5;
+   border-radius: 10px;
+   padding: 30px;
+   margin-top: 30px;
+}
+
+.cup-wrapper {
+   width: 50px;
+   height: 50px;
+   background: #ebf0f5;
+   align-items: center;
+   text-align: center;
+   border-radius: 50%;
+}
+.cup {
+   margin-top: 12px;
+   width: 21px;
+   height: 21px;
+}
+
+/* syllabus analysis */
+.syllabus-analysis {
+   border: 1px solid #ebf0f5;
+   padding: 20px;
+   margin-top: 68px;
+   margin-right: 20px;
+   border-radius: 10px;
+}
+
+.progress1 {
+   border-radius: 20px;
+   position: relative;
+   margin: 15px 0;
+   height: 10px;
+   width: 200px;
+}
+
+.progress-done1 {
+   border-radius: 20px;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   width: 0;
+   opacity: 0;
+   transition: 1s ease 0.3s;
+}
+
+.progress-item {
+   margin-bottom: 20px;
+}
+
+.progress-item p {
+   margin-bottom: 0px;
+   font-size: 16px;
+   color: #566474;
+}
+
+.questions-solved {
+   width: 100px !important;
+}
+.graph {
+   border: 1px solid #ebf0f5;
+   padding: 20px;
+   margin-top: 20px;
+
+   border-radius: 10px;
+}
+
+.question-analysis {
+   border: 1px solid #ebf0f5;
+   padding: 20px;
+   margin-top: 25px;
+   margin-right: 20px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+}
