@@ -28,6 +28,7 @@ const Progress = ({ done, color, bgColor }) => {
           }}
         >
           <CountUp end={done} duration={1.3} />
+            %
         </p>
       </div>
     </>
