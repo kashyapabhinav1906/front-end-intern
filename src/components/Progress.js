@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AnimatedNumber from "react-animated-number";
+
 import CountUp from "react-countup";
 
 const Progress = ({ done, color, bgColor }) => {
